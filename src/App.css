@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
-}
+@import url("./index.css");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-container {
+  position: relative;
+  background-image: url("../public/images/pattern-hills.svg"),
+    url("../public/images/bg-stars.svg");
+  background-size: auto;
+  background-position: bottom, center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.time-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 2rem;
+}
+.main-title {
+  color: var(--White);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.social-media-container {
+  position: absolute;
+  inset: auto 0 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.social-media-container a:hover {
+  opacity: 0.5;
 }
 
-.App-link {
-  color: #61dafb;
+.attribution {
+  position: absolute;
+  inset: auto 0 0 0;
+  font-size: 11px;
+  text-align: center;
+  color: var(--White);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 375px) {
 }
