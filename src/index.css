@@ -4,9 +4,9 @@
   --Grayish-blue: hsla(237, 18%, 59%, 0.47);
   --Soft-red: hsl(345, 95%, 68%);
   --White: hsl(0, 0%, 100%);
-  --Dark-desaturated-blue: hsl(236, 21%, 26%);
-  --Very-dark-blue: hsl(235, 16%, 14%);
-  --Very-dark-black-blue: hsl(234, 17%, 12%);
+  --Dark-desaturated-blue: rgb(52, 54, 80);
+  --Very-dark-blue: rgb(30, 31, 41);
+  --Very-dark-black-blue: rgb(25, 26, 36);
 }
 
 body {
