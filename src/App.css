@@ -52,7 +52,7 @@
   color: hsl(228, 45%, 44%);
 }
 
-.flip-cards-container{
+.flip-cards-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,7 +61,7 @@
 }
 
 /* timer-container */
-.span-text{
+.span-text {
   display: block;
   color: var(--Soft-red);
   font-size: 12px;
@@ -70,7 +70,6 @@
   text-align: center;
   text-transform: uppercase;
   margin-top: 1rem;
-
 }
 .flip-card {
   position: relative;
@@ -136,7 +135,6 @@
   transform: rotateX(180deg);
   backface-visibility: hidden;
   background-color: var(--Dark-desaturated-blue);
-
 }
 
 @keyframes flip-top {
@@ -146,9 +144,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  
   .time-container {
-    top: 40%;
     gap: 1.5rem;
   }
 
@@ -158,7 +154,7 @@
   }
 
   .flip-cards-container {
-    gap: 1.5rem;
+    gap: 1rem;
     margin-top: 3rem;
   }
 
@@ -184,7 +180,6 @@
 
 @media screen and (max-width: 375px) {
   .time-container {
-    top: 45%;
     gap: 1rem;
   }
 
@@ -194,8 +189,7 @@
   }
 
   .flip-cards-container {
-    flex-wrap: wrap;
-    gap: 1rem;
+    gap: 0.5rem;
     margin-top: 2rem;
   }
 
@@ -203,7 +197,7 @@
   .bottom,
   .flip-card.flip::after,
   .flip-card.flip::before {
-    padding: 1rem 0.5rem;
+    padding: 1rem;
     font-size: 2rem;
   }
 
@@ -215,7 +209,6 @@
 
   .social-media-container {
     gap: 1rem;
-    bottom: 2rem;
   }
 
   .attribution {
