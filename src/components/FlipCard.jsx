@@ -19,11 +19,11 @@ function FlipCard({ value, text }) {
     <div className="flip-card-wrapper">
       <div
         className={`flip-card ${flipping ? "flip" : ""}`}
-        data-current-number={previousValue}
+        data-current-number={value}
         data-next-number={value}
       >
         <div className="top">{value}</div>
-        <div className="bottom">{previousValue}</div>
+        <div className="bottom">{value}</div>
       </div>
       <span className="span-text">{text}</span>
     </div>

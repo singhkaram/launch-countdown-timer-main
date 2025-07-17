@@ -113,7 +113,7 @@
   content: attr(data-current-number);
   position: absolute;
   transform-origin: bottom;
-  animation: flip-bottom 0.5s ease;
+  animation: flip-bottom 500ms ease;
   backface-visibility: hidden;
   background-color: var(--Dark-desaturated-blue);
 }
@@ -131,7 +131,7 @@
   content: attr(data-next-number);
   position: absolute;
   transform-origin: top;
-  animation: flip-top 0.5s ease;
+  animation: flip-top 500ms ease;
   transform: rotateX(180deg);
   backface-visibility: hidden;
   background-color: var(--Dark-desaturated-blue);
